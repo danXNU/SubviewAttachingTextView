@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "SubviewAttachingTextView",
-    platforms: [.iOS(.v8), .tvOS(.v9)],
+    platforms: [.iOS(.v9), .tvOS(.v9)],
     products: [
         .library(
             name: "SubviewAttachingTextView",
